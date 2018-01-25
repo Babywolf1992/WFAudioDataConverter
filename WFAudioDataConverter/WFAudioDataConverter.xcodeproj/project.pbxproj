@@ -15,6 +15,9 @@
 		9E2A13342019DDA40098CF4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2A13332019DDA40098CF4C /* main.m */; };
 		9E2A133E2019DDA40098CF4C /* WFAudioDataConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2A133D2019DDA40098CF4C /* WFAudioDataConverterTests.m */; };
 		9E2A13492019DDA40098CF4C /* WFAudioDataConverterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2A13482019DDA40098CF4C /* WFAudioDataConverterUITests.m */; };
+		9E2A13622019DEBF0098CF4C /* libopencore-amrwb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E2A135B2019DEBF0098CF4C /* libopencore-amrwb.a */; };
+		9E2A13632019DEBF0098CF4C /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E2A135C2019DEBF0098CF4C /* libopencore-amrnb.a */; };
+		9E2A13672019DF0C0098CF4C /* WFAudioDataConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2A13662019DF0C0098CF4C /* WFAudioDataConverter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,14 @@
 		9E2A13442019DDA40098CF4C /* WFAudioDataConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WFAudioDataConverterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E2A13482019DDA40098CF4C /* WFAudioDataConverterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFAudioDataConverterUITests.m; sourceTree = "<group>"; };
 		9E2A134A2019DDA40098CF4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E2A13582019DEBF0098CF4C /* if_rom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = if_rom.h; sourceTree = "<group>"; };
+		9E2A13592019DEBF0098CF4C /* dec_if.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dec_if.h; sourceTree = "<group>"; };
+		9E2A135B2019DEBF0098CF4C /* libopencore-amrwb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrwb.a"; sourceTree = "<group>"; };
+		9E2A135C2019DEBF0098CF4C /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrnb.a"; sourceTree = "<group>"; };
+		9E2A13602019DEBF0098CF4C /* interf_dec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_dec.h; sourceTree = "<group>"; };
+		9E2A13612019DEBF0098CF4C /* interf_enc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_enc.h; sourceTree = "<group>"; };
+		9E2A13652019DF0C0098CF4C /* WFAudioDataConverter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFAudioDataConverter.h; sourceTree = "<group>"; };
+		9E2A13662019DF0C0098CF4C /* WFAudioDataConverter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFAudioDataConverter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E2A13622019DEBF0098CF4C /* libopencore-amrwb.a in Frameworks */,
+				9E2A13632019DEBF0098CF4C /* libopencore-amrnb.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +114,7 @@
 		9E2A13232019DDA40098CF4C /* WFAudioDataConverter */ = {
 			isa = PBXGroup;
 			children = (
+				9E2A13562019DE9A0098CF4C /* WFAudioDataConverter */,
 				9E2A13242019DDA40098CF4C /* AppDelegate.h */,
 				9E2A13252019DDA40098CF4C /* AppDelegate.m */,
 				9E2A13272019DDA40098CF4C /* ViewController.h */,
@@ -130,6 +144,45 @@
 				9E2A134A2019DDA40098CF4C /* Info.plist */,
 			);
 			path = WFAudioDataConverterUITests;
+			sourceTree = "<group>";
+		};
+		9E2A13562019DE9A0098CF4C /* WFAudioDataConverter */ = {
+			isa = PBXGroup;
+			children = (
+				9E2A135A2019DEBF0098CF4C /* lib */,
+				9E2A135F2019DEBF0098CF4C /* opencore-amrnb */,
+				9E2A13572019DEBF0098CF4C /* opencore-amrwb */,
+				9E2A13652019DF0C0098CF4C /* WFAudioDataConverter.h */,
+				9E2A13662019DF0C0098CF4C /* WFAudioDataConverter.m */,
+			);
+			path = WFAudioDataConverter;
+			sourceTree = "<group>";
+		};
+		9E2A13572019DEBF0098CF4C /* opencore-amrwb */ = {
+			isa = PBXGroup;
+			children = (
+				9E2A13582019DEBF0098CF4C /* if_rom.h */,
+				9E2A13592019DEBF0098CF4C /* dec_if.h */,
+			);
+			path = "opencore-amrwb";
+			sourceTree = "<group>";
+		};
+		9E2A135A2019DEBF0098CF4C /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				9E2A135B2019DEBF0098CF4C /* libopencore-amrwb.a */,
+				9E2A135C2019DEBF0098CF4C /* libopencore-amrnb.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		9E2A135F2019DEBF0098CF4C /* opencore-amrnb */ = {
+			isa = PBXGroup;
+			children = (
+				9E2A13602019DEBF0098CF4C /* interf_dec.h */,
+				9E2A13612019DEBF0098CF4C /* interf_enc.h */,
+			);
+			path = "opencore-amrnb";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +320,7 @@
 			files = (
 				9E2A13292019DDA40098CF4C /* ViewController.m in Sources */,
 				9E2A13342019DDA40098CF4C /* main.m in Sources */,
+				9E2A13672019DF0C0098CF4C /* WFAudioDataConverter.m in Sources */,
 				9E2A13262019DDA40098CF4C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,6 +488,10 @@
 				DEVELOPMENT_TEAM = C63Y2RP62Y;
 				INFOPLIST_FILE = WFAudioDataConverter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WFAudioDataConverter/WFAudioDataConverter/lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.weaver.WFAudioDataConverter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -448,6 +506,10 @@
 				DEVELOPMENT_TEAM = C63Y2RP62Y;
 				INFOPLIST_FILE = WFAudioDataConverter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WFAudioDataConverter/WFAudioDataConverter/lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.weaver.WFAudioDataConverter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

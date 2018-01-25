@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E2A13262019DDA40098CF4C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2A13252019DDA40098CF4C /* AppDelegate.m */; };
+		9E2A13292019DDA40098CF4C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2A13282019DDA40098CF4C /* ViewController.m */; };
+		9E2A132C2019DDA40098CF4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E2A132A2019DDA40098CF4C /* Main.storyboard */; };
+		9E2A132E2019DDA40098CF4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E2A132D2019DDA40098CF4C /* Assets.xcassets */; };
+		9E2A13312019DDA40098CF4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E2A132F2019DDA40098CF4C /* LaunchScreen.storyboard */; };
+		9E2A13342019DDA40098CF4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2A13332019DDA40098CF4C /* main.m */; };
+		9E2A133E2019DDA40098CF4C /* WFAudioDataConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2A133D2019DDA40098CF4C /* WFAudioDataConverterTests.m */; };
+		9E2A13492019DDA40098CF4C /* WFAudioDataConverterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2A13482019DDA40098CF4C /* WFAudioDataConverterUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9E2A133A2019DDA40098CF4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E2A13192019DDA40098CF4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E2A13202019DDA40098CF4C;
+			remoteInfo = WFAudioDataConverter;
+		};
+		9E2A13452019DDA40098CF4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E2A13192019DDA40098CF4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E2A13202019DDA40098CF4C;
+			remoteInfo = WFAudioDataConverter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9E2A13212019DDA40098CF4C /* WFAudioDataConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WFAudioDataConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E2A13242019DDA40098CF4C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9E2A13252019DDA40098CF4C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9E2A13272019DDA40098CF4C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9E2A13282019DDA40098CF4C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9E2A132B2019DDA40098CF4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9E2A132D2019DDA40098CF4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E2A13302019DDA40098CF4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9E2A13322019DDA40098CF4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E2A13332019DDA40098CF4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9E2A13392019DDA40098CF4C /* WFAudioDataConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WFAudioDataConverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E2A133D2019DDA40098CF4C /* WFAudioDataConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFAudioDataConverterTests.m; sourceTree = "<group>"; };
+		9E2A133F2019DDA40098CF4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E2A13442019DDA40098CF4C /* WFAudioDataConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WFAudioDataConverterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E2A13482019DDA40098CF4C /* WFAudioDataConverterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFAudioDataConverterUITests.m; sourceTree = "<group>"; };
+		9E2A134A2019DDA40098CF4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E2A131E2019DDA40098CF4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E2A13362019DDA40098CF4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E2A13412019DDA40098CF4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E2A13182019DDA40098CF4C = {
+			isa = PBXGroup;
+			children = (
+				9E2A13232019DDA40098CF4C /* WFAudioDataConverter */,
+				9E2A133C2019DDA40098CF4C /* WFAudioDataConverterTests */,
+				9E2A13472019DDA40098CF4C /* WFAudioDataConverterUITests */,
+				9E2A13222019DDA40098CF4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E2A13222019DDA40098CF4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E2A13212019DDA40098CF4C /* WFAudioDataConverter.app */,
+				9E2A13392019DDA40098CF4C /* WFAudioDataConverterTests.xctest */,
+				9E2A13442019DDA40098CF4C /* WFAudioDataConverterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E2A13232019DDA40098CF4C /* WFAudioDataConverter */ = {
+			isa = PBXGroup;
+			children = (
+				9E2A13242019DDA40098CF4C /* AppDelegate.h */,
+				9E2A13252019DDA40098CF4C /* AppDelegate.m */,
+				9E2A13272019DDA40098CF4C /* ViewController.h */,
+				9E2A13282019DDA40098CF4C /* ViewController.m */,
+				9E2A132A2019DDA40098CF4C /* Main.storyboard */,
+				9E2A132D2019DDA40098CF4C /* Assets.xcassets */,
+				9E2A132F2019DDA40098CF4C /* LaunchScreen.storyboard */,
+				9E2A13322019DDA40098CF4C /* Info.plist */,
+				9E2A13332019DDA40098CF4C /* main.m */,
+			);
+			path = WFAudioDataConverter;
+			sourceTree = "<group>";
+		};
+		9E2A133C2019DDA40098CF4C /* WFAudioDataConverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				9E2A133D2019DDA40098CF4C /* WFAudioDataConverterTests.m */,
+				9E2A133F2019DDA40098CF4C /* Info.plist */,
+			);
+			path = WFAudioDataConverterTests;
+			sourceTree = "<group>";
+		};
+		9E2A13472019DDA40098CF4C /* WFAudioDataConverterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9E2A13482019DDA40098CF4C /* WFAudioDataConverterUITests.m */,
+				9E2A134A2019DDA40098CF4C /* Info.plist */,
+			);
+			path = WFAudioDataConverterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E2A13202019DDA40098CF4C /* WFAudioDataConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E2A134D2019DDA40098CF4C /* Build configuration list for PBXNativeTarget "WFAudioDataConverter" */;
+			buildPhases = (
+				9E2A131D2019DDA40098CF4C /* Sources */,
+				9E2A131E2019DDA40098CF4C /* Frameworks */,
+				9E2A131F2019DDA40098CF4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WFAudioDataConverter;
+			productName = WFAudioDataConverter;
+			productReference = 9E2A13212019DDA40098CF4C /* WFAudioDataConverter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9E2A13382019DDA40098CF4C /* WFAudioDataConverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E2A13502019DDA40098CF4C /* Build configuration list for PBXNativeTarget "WFAudioDataConverterTests" */;
+			buildPhases = (
+				9E2A13352019DDA40098CF4C /* Sources */,
+				9E2A13362019DDA40098CF4C /* Frameworks */,
+				9E2A13372019DDA40098CF4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E2A133B2019DDA40098CF4C /* PBXTargetDependency */,
+			);
+			name = WFAudioDataConverterTests;
+			productName = WFAudioDataConverterTests;
+			productReference = 9E2A13392019DDA40098CF4C /* WFAudioDataConverterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9E2A13432019DDA40098CF4C /* WFAudioDataConverterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E2A13532019DDA40098CF4C /* Build configuration list for PBXNativeTarget "WFAudioDataConverterUITests" */;
+			buildPhases = (
+				9E2A13402019DDA40098CF4C /* Sources */,
+				9E2A13412019DDA40098CF4C /* Frameworks */,
+				9E2A13422019DDA40098CF4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E2A13462019DDA40098CF4C /* PBXTargetDependency */,
+			);
+			name = WFAudioDataConverterUITests;
+			productName = WFAudioDataConverterUITests;
+			productReference = 9E2A13442019DDA40098CF4C /* WFAudioDataConverterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E2A13192019DDA40098CF4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = babywolf;
+				TargetAttributes = {
+					9E2A13202019DDA40098CF4C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					9E2A13382019DDA40098CF4C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9E2A13202019DDA40098CF4C;
+					};
+					9E2A13432019DDA40098CF4C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9E2A13202019DDA40098CF4C;
+					};
+				};
+			};
+			buildConfigurationList = 9E2A131C2019DDA40098CF4C /* Build configuration list for PBXProject "WFAudioDataConverter" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E2A13182019DDA40098CF4C;
+			productRefGroup = 9E2A13222019DDA40098CF4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E2A13202019DDA40098CF4C /* WFAudioDataConverter */,
+				9E2A13382019DDA40098CF4C /* WFAudioDataConverterTests */,
+				9E2A13432019DDA40098CF4C /* WFAudioDataConverterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E2A131F2019DDA40098CF4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E2A13312019DDA40098CF4C /* LaunchScreen.storyboard in Resources */,
+				9E2A132E2019DDA40098CF4C /* Assets.xcassets in Resources */,
+				9E2A132C2019DDA40098CF4C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E2A13372019DDA40098CF4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E2A13422019DDA40098CF4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E2A131D2019DDA40098CF4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E2A13292019DDA40098CF4C /* ViewController.m in Sources */,
+				9E2A13342019DDA40098CF4C /* main.m in Sources */,
+				9E2A13262019DDA40098CF4C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E2A13352019DDA40098CF4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E2A133E2019DDA40098CF4C /* WFAudioDataConverterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E2A13402019DDA40098CF4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E2A13492019DDA40098CF4C /* WFAudioDataConverterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9E2A133B2019DDA40098CF4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E2A13202019DDA40098CF4C /* WFAudioDataConverter */;
+			targetProxy = 9E2A133A2019DDA40098CF4C /* PBXContainerItemProxy */;
+		};
+		9E2A13462019DDA40098CF4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E2A13202019DDA40098CF4C /* WFAudioDataConverter */;
+			targetProxy = 9E2A13452019DDA40098CF4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9E2A132A2019DDA40098CF4C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E2A132B2019DDA40098CF4C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9E2A132F2019DDA40098CF4C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E2A13302019DDA40098CF4C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E2A134B2019DDA40098CF4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9E2A134C2019DDA40098CF4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E2A134E2019DDA40098CF4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C63Y2RP62Y;
+				INFOPLIST_FILE = WFAudioDataConverter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weaver.WFAudioDataConverter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E2A134F2019DDA40098CF4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C63Y2RP62Y;
+				INFOPLIST_FILE = WFAudioDataConverter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weaver.WFAudioDataConverter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9E2A13512019DDA40098CF4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C63Y2RP62Y;
+				INFOPLIST_FILE = WFAudioDataConverterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weaver.WFAudioDataConverterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WFAudioDataConverter.app/WFAudioDataConverter";
+			};
+			name = Debug;
+		};
+		9E2A13522019DDA40098CF4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C63Y2RP62Y;
+				INFOPLIST_FILE = WFAudioDataConverterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weaver.WFAudioDataConverterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WFAudioDataConverter.app/WFAudioDataConverter";
+			};
+			name = Release;
+		};
+		9E2A13542019DDA40098CF4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C63Y2RP62Y;
+				INFOPLIST_FILE = WFAudioDataConverterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weaver.WFAudioDataConverterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WFAudioDataConverter;
+			};
+			name = Debug;
+		};
+		9E2A13552019DDA40098CF4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C63Y2RP62Y;
+				INFOPLIST_FILE = WFAudioDataConverterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weaver.WFAudioDataConverterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WFAudioDataConverter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E2A131C2019DDA40098CF4C /* Build configuration list for PBXProject "WFAudioDataConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E2A134B2019DDA40098CF4C /* Debug */,
+				9E2A134C2019DDA40098CF4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E2A134D2019DDA40098CF4C /* Build configuration list for PBXNativeTarget "WFAudioDataConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E2A134E2019DDA40098CF4C /* Debug */,
+				9E2A134F2019DDA40098CF4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E2A13502019DDA40098CF4C /* Build configuration list for PBXNativeTarget "WFAudioDataConverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E2A13512019DDA40098CF4C /* Debug */,
+				9E2A13522019DDA40098CF4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E2A13532019DDA40098CF4C /* Build configuration list for PBXNativeTarget "WFAudioDataConverterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E2A13542019DDA40098CF4C /* Debug */,
+				9E2A13552019DDA40098CF4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E2A13192019DDA40098CF4C /* Project object */;
+}
